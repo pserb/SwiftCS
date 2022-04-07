@@ -11,3 +11,8 @@ import Foundation
 var coinDriver = CoinDriver()
 coinDriver.main()
 // ==========================
+
+// ======== 68_knight =========
+var tourFinder = TourFinder(6)
+tourFinder.findTour(2, 2, 1)
+// ==========================
