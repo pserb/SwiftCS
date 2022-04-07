@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C5BE5BD727FE866E0066FADC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE5BD627FE866E0066FADC /* main.swift */; };
+		C5BE5BE327FE88600066FADC /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE5BE227FE88600066FADC /* Coin.swift */; };
+		C5BE5BE527FE886C0066FADC /* CoinDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE5BE427FE886C0066FADC /* CoinDriver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		C5BE5BD327FE866E0066FADC /* SwiftCS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftCS; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BE5BD627FE866E0066FADC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C5BE5BE227FE88600066FADC /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		C5BE5BE427FE886C0066FADC /* CoinDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDriver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +45,8 @@
 		C5BE5BCA27FE866E0066FADC = {
 			isa = PBXGroup;
 			children = (
-				C5BE5BD527FE866E0066FADC /* SwiftCS */,
+				C5BE5BDF27FE87D60066FADC /* 23_coin */,
+				C5BE5BD627FE866E0066FADC /* main.swift */,
 				C5BE5BD427FE866E0066FADC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +59,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5BE5BD527FE866E0066FADC /* SwiftCS */ = {
+		C5BE5BDF27FE87D60066FADC /* 23_coin */ = {
 			isa = PBXGroup;
 			children = (
-				C5BE5BD627FE866E0066FADC /* main.swift */,
+				C5BE5BE227FE88600066FADC /* Coin.swift */,
+				C5BE5BE427FE886C0066FADC /* CoinDriver.swift */,
 			);
-			path = SwiftCS;
+			path = 23_coin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BE5BE527FE886C0066FADC /* CoinDriver.swift in Sources */,
+				C5BE5BE327FE88600066FADC /* Coin.swift in Sources */,
 				C5BE5BD727FE866E0066FADC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
