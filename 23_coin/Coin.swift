@@ -8,7 +8,6 @@
 import Foundation
 
 struct Coin: CustomStringConvertible {
-    
     private var value: Double
     private var upFace: String
     private var name: String
@@ -42,7 +41,7 @@ struct Coin: CustomStringConvertible {
         self.assignValue(self.name)
     }
     
-    init(_ s: String, nowFace: String) {
+    init(_ s: String, _ nowFace: String) {
         self.init(s)
         self.upFace = nowFace
     }
@@ -63,7 +62,7 @@ struct Coin: CustomStringConvertible {
         return self.upFace
     }
     
-    mutating func reset(_ s: String, d: Double) {
+    mutating func reset(_ s: String, _ d: Double) {
         self.upFace = s
         self.bias = d
     }

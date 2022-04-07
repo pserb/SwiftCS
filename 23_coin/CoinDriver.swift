@@ -8,8 +8,8 @@
 import Foundation
 
 struct CoinDriver {
-    var coin = Coin("quarter", nowFace: "heads")
-    var other = Coin("quarter", nowFace: "heads")
+    var coin = Coin("quarter", "heads")
+    var other = Coin("quarter", "heads")
     
     mutating func main() {
         print(coin)
