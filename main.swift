@@ -18,21 +18,47 @@ import Foundation
 // ============================
 
 // ============ 86_schemery  ============
-var scheme = Scheme()
-
-let foo1: String = "( + 4 3 )"
-print(foo1)
-print(scheme.evaluate(foo1))
-
-let foo2: String = "( + 4 ( * 2 5 ) 3 )"
-print("\n\(foo2)")
-print(scheme.evaluate(foo2))
-
-let foo3: String = "( + 4 ( * 2 5 ) 6 3 ( - 56 50 ) )"
-print("\n\(foo3)")
-print(scheme.evaluate(foo3))
-
-let foo4: String = "( - 1 2 3 )"
-print("\n\(foo4)")
-print(scheme.evaluate(foo4))
+//var scheme = Scheme()
+//
+//let foo1: String = "( + 4 3 )"
+//print(foo1)
+//print(scheme.evaluate(foo1))
+//
+//let foo2: String = "( + 4 ( * 2 5 ) 3 )"
+//print("\n\(foo2)")
+//print(scheme.evaluate(foo2))
+//
+//let foo3: String = "( + 4 ( * 2 5 ) 6 3 ( - 56 50 ) )"
+//print("\n\(foo3)")
+//print(scheme.evaluate(foo3))
+//
+//let foo4: String = "( - 1 2 3 )"
+//print("\n\(foo4)")
+//print(scheme.evaluate(foo4))
 // =======================================
+
+// ============== 90_deque ==============
+var deque = ListDeque<String>()
+
+print("Now using deque as a stack...")
+deque.addLast("hey")
+deque.addLast("wo")
+deque.addLast("ow")
+deque.addLast("o")
+
+print(deque.size())
+while (!deque.isEmpty()) {
+    print(deque.removeLast())
+}
+
+print("\nNow using deque as a queue...")
+deque.addFirst("hey")
+deque.addFirst("wo")
+deque.addFirst("ow")
+deque.addFirst("o")
+
+print(deque.size())
+while (!deque.isEmpty()) {
+    print(deque.removeLast())
+}
+// ======================================
