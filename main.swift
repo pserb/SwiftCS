@@ -37,28 +37,50 @@ import Foundation
 //print(scheme.evaluate(foo4))
 // =======================================
 
+// == 89_queue ==
+//var queue = ListQueue<Int>()
+//
+//queue.add(1)
+//queue.add(2)
+//queue.add(3)
+//queue.add(4)
+//
+//print("peeking: \(queue.peek())")
+//
+//print("dequeueing...")
+//print(queue.remove())
+//print(queue.remove())
+//print(queue.remove())
+//print(queue.remove())
+//
+//print("is empty? \(queue.isEmpty())")
+// ===
+
+
 // ============== 90_deque ==============
-var deque = ListDeque<String>()
-
-print("Now using deque as a stack...")
-deque.addLast("hey")
-deque.addLast("wo")
-deque.addLast("ow")
-deque.addLast("o")
-
-print(deque.size())
-while (!deque.isEmpty()) {
-    print(deque.removeLast())
-}
-
-print("\nNow using deque as a queue...")
-deque.addFirst("hey")
-deque.addFirst("wo")
-deque.addFirst("ow")
-deque.addFirst("o")
-
-print(deque.size())
-while (!deque.isEmpty()) {
-    print(deque.removeLast())
-}
+//var deque = ListDeque<String>()
+//
+//print("Now using deque as a stack...")
+//deque.addLast("hey")
+//deque.addLast("wo")
+//deque.addLast("ow")
+//deque.addLast("o")
+//
+//print(deque.size())
+//while (!deque.isEmpty()) {
+//    print(deque.removeLast())
+//}
+//
+//print("\nNow using deque as a queue...")
+//deque.addFirst("hey")
+//deque.addFirst("wo")
+//deque.addFirst("ow")
+//deque.addFirst("o")
+//
+//print(deque.size())
+//while (!deque.isEmpty()) {
+//    print(deque.removeLast())
+//}
 // ======================================
+
+
